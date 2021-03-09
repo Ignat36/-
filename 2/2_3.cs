@@ -5,20 +5,40 @@ namespace _2_3
 {
     class Program
     {
+        static Int64 solve(Int64 x)
+        {
+            Int64 ans = 0, temp = 2;
+            while (x / temp > 0)
+            {
+                ans += x / temp;
+                temp *= 2;
+            }
+
+            return ans;
+        }
         static void Main(string[] args)
         {
-            string[] Arr_string = Console.ReadLine().Split();
-            int res = 0;
-            for (int i = 0; i < Arr_string.Length; i++)
+            Int64 a, b;
+            Console.Write("Enter integer a: ");
+            string A = Console.ReadLine();
+            if (Int64.TryParse(A, out a)) { }
+            else
             {
-                UInt64 tmp = Convert.ToUInt64(Arr_string[i]);
-                while (tmp % 2 == 0)
-                {
-                    res++;
-                    tmp /= 2;
-                }
+                Console.WriteLine("Invalid input!");
+                return;
             }
-            Console.WriteLine("Composition is division by 2^{0}", res);
+
+            Console.Write("Enter integer b: ");
+            string B = Console.ReadLine();
+            if (Int64.TryParse(B, out b)) { }
+            else
+            {
+                Console.WriteLine("Invalid input!");
+                return;
+            }
+
+            Console.WriteLine("Product of numbers is divisible by 2 in power {0}",solve(b) - solve(a-1));
+
         }
     }
 }
