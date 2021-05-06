@@ -22,6 +22,8 @@ namespace Cars
         protected List<Item> Trunk;
         protected double OccupiedVolume;
 
+        protected int Color, WindowColor, NeonColor, Suspention;
+
         public Car() { }
         public Car(int Weight, int MaxWeight, int PassengerSeats, int TankCapacity, int TrunkVolume, double FuelFlow, int MaxSpeed)
         {
