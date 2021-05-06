@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Cars
 {
-    sealed class Tesla : Car
+    sealed class Tesla : Car, ICastomizableCar
     {
         public Tesla(string CarModel, int Weight, int MaxWeight, int PassengerSeats, int TankCapacity, int TrunkVolume, double FuelFlow, int MaxSpeed) :
             base(Weight, MaxWeight, PassengerSeats, TankCapacity, TrunkVolume, FuelFlow, MaxSpeed)
@@ -60,6 +60,29 @@ namespace Cars
                 this.Fuel -= Fuel;
                 return Fuel;
             }
+        }
+
+        public void setCastomColor(int[,] arr)
+        {
+            Color = arr[0, 0];
+        }
+        public void NeonColor(int color)
+        {
+            this.Color = color;
+        }
+        public void setEngine(int speed, int capacity)
+        {
+            MaxSpeed = speed;
+            TankCapacity = capacity;
+        }
+        public void setSaspension(int height, int KHidraulicCompression)
+        {
+            this.height += height;
+            Suspention = KHidraulicCompression;
+        }
+        public void setWindowColor(int color)
+        {
+            WindowColor = color;
         }
     }
 }
