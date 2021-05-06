@@ -6,6 +6,26 @@ namespace Cars
 { 
     class Program
     {
+
+        static void Castomize(ICastomizableCar car)
+        {
+            Console.WriteLine("Покрасить машину : 1");
+            Console.WriteLine("Добавить подсветку : 2");
+            Console.WriteLine("Поменять двигатель : 3");
+            Console.WriteLine("Изменить подвеску : 4");
+            Console.WriteLine("Поменять цвет тонировки окон : 5");
+
+            int request;
+            string tmp;
+
+
+            do
+            {
+                Console.WriteLine("Введите номер запроса : ");
+                tmp = Console.ReadLine();
+            } while (!int.TryParse(tmp, out request));
+        }
+
         static void Main(string[] args)
         {
             int Weight, MaxWeight;
