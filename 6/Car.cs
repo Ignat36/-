@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Cars
 {
-    abstract class Car : TransportFacility
+    abstract class Car : TransportFacility, IComparable<Car>
     {
         protected int WheelAxle, Wheels;
 
@@ -185,6 +185,18 @@ namespace Cars
                 "Кол-во пассажирских мест : {6}\n" +
                 "Идентификационный номер : {7}\n" +
                 "Название автомобиля : {8}", TankCapacity, FuelFlow, TrunkVolume, Weight / 1000.0, MaxWeight - Weight, MaxSpeed, PassengerSeats, IdentificationNumber, Brand + Model);
+        }
+
+        public int CompareTo(Car mashina)
+        {
+            double value1 = MSpeed / 400.0 + MDistance / 1000.0;
+            double value2 = mashina.MSpeed / 400.0 + mashina.MDistance / 1000.0;
+
+            if (value1 > value2)
+                return 1;
+            else if (value1 < value2)
+                return -1;
+            else return 0;
         }
     }
 }
