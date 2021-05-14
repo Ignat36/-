@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\ИСП\3\Cars\bin\Debug\netcoreapp3.1\Cars.exe
+C:\Users\user\Desktop\ИСП\3\Cars\bin\Debug\netcoreapp3.1\Cars.deps.json
+C:\Users\user\Desktop\ИСП\3\Cars\bin\Debug\netcoreapp3.1\Cars.runtimeconfig.json
+C:\Users\user\Desktop\ИСП\3\Cars\bin\Debug\netcoreapp3.1\Cars.runtimeconfig.dev.json
+C:\Users\user\Desktop\ИСП\3\Cars\bin\Debug\netcoreapp3.1\Cars.dll
+C:\Users\user\Desktop\ИСП\3\Cars\bin\Debug\netcoreapp3.1\Cars.pdb
+C:\Users\user\Desktop\ИСП\3\Cars\obj\Debug\netcoreapp3.1\Cars.csprojAssemblyReference.cache
+C:\Users\user\Desktop\ИСП\3\Cars\obj\Debug\netcoreapp3.1\Cars.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ИСП\3\Cars\obj\Debug\netcoreapp3.1\Cars.AssemblyInfo.cs
+C:\Users\user\Desktop\ИСП\3\Cars\obj\Debug\netcoreapp3.1\Cars.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ИСП\3\Cars\obj\Debug\netcoreapp3.1\Cars.dll
+C:\Users\user\Desktop\ИСП\3\Cars\obj\Debug\netcoreapp3.1\Cars.pdb
+C:\Users\user\Desktop\ИСП\3\Cars\obj\Debug\netcoreapp3.1\Cars.genruntimeconfig.cache
