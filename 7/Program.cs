@@ -54,26 +54,8 @@ namespace Lr7
                         Console.Write("Введите рациональное число: ");
                         while (_ratio == null)
                         {
-                            try
-                            {
-                                _ratio = Console.ReadLine();
-                                ratt = new Fraction(_ratio);
-                            }
-                            catch (StringException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (EnterKeyException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (WordsException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
+                            _ratio = Console.ReadLine();
+                            ratt = new Fraction(_ratio);
                         }
 
                         ratt = new Fraction(_ratio);
@@ -101,26 +83,8 @@ namespace Lr7
                         Console.WriteLine("Введите первую дробь: ");
                         while (_ratio == null)
                         {
-                            try
-                            {
-                                _ratio = Console.ReadLine();
-                                _ratio1 = new Fraction(_ratio);
-                            }
-                            catch (StringException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (EnterKeyException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (WordsException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
+                            _ratio = Console.ReadLine();
+                            _ratio1 = new Fraction(_ratio);
                         }
 
                         Fraction first = new Fraction(_ratio);
@@ -130,26 +94,8 @@ namespace Lr7
                         Console.WriteLine("Введите вторую дробь: ");
                         while (_ratio == null)
                         {
-                            try
-                            {
-                                _ratio = Console.ReadLine();
-                                _ratio2 = new Fraction(_ratio);
-                            }
-                            catch (StringException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (EnterKeyException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (WordsException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
+                            _ratio = Console.ReadLine();
+                            _ratio2 = new Fraction(_ratio);
                         }
 
                         Fraction second = new Fraction(_ratio);
@@ -173,26 +119,8 @@ namespace Lr7
                         Console.WriteLine("Введите первую дробь: ");
                         while (_ratio == null)
                         {
-                            try
-                            {
-                                _ratio = Console.ReadLine();
-                                _ratio1 = new Fraction(_ratio);
-                            }
-                            catch (StringException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (EnterKeyException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (WordsException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
+                            _ratio = Console.ReadLine();
+                            _ratio1 = new Fraction(_ratio);
                         }
 
                         Fraction first = new Fraction(_ratio);
@@ -202,26 +130,8 @@ namespace Lr7
                         Console.WriteLine("Введите вторую дробь: ");
                         while (_ratio == null)
                         {
-                            try
-                            {
-                                _ratio = Console.ReadLine();
-                                _ratio2 = new Fraction(_ratio);
-                            }
-                            catch (StringException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (EnterKeyException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (WordsException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
+                            _ratio = Console.ReadLine();
+                            _ratio2 = new Fraction(_ratio);
                         }
 
                         Fraction second = new Fraction(_ratio);
@@ -245,26 +155,8 @@ namespace Lr7
                         Console.WriteLine("Введите первую дробь: ");
                         while (_ratio == null)
                         {
-                            try
-                            {
-                                _ratio = Console.ReadLine();
-                                _ratio1 = new Fraction(_ratio);
-                            }
-                            catch (StringException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (EnterKeyException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (WordsException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
+                            _ratio = Console.ReadLine();
+                            _ratio1 = new Fraction(_ratio);
                         }
 
                         Fraction first = new Fraction(_ratio);
@@ -274,26 +166,8 @@ namespace Lr7
                         Console.WriteLine("Введите вторую дробь: ");
                         while (_ratio == null)
                         {
-                            try
-                            {
-                                _ratio = Console.ReadLine();
-                                _ratio2 = new Fraction(_ratio);
-                            }
-                            catch (StringException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (EnterKeyException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (WordsException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
+                            _ratio = Console.ReadLine();
+                            _ratio2 = new Fraction(_ratio);
                         }
 
                         Fraction second = new Fraction(_ratio);
@@ -317,26 +191,8 @@ namespace Lr7
                         Console.WriteLine("Введите первую дробь: ");
                         while (_ratio == null)
                         {
-                            try
-                            {
-                                _ratio = Console.ReadLine();
-                                _ratio1 = new Fraction(_ratio);
-                            }
-                            catch (StringException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (EnterKeyException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (WordsException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
+                            _ratio = Console.ReadLine();
+                            _ratio1 = new Fraction(_ratio);
                         }
 
                         Fraction first = new Fraction(_ratio);
@@ -346,26 +202,8 @@ namespace Lr7
                         Console.WriteLine("Введите вторую дробь: ");
                         while (_ratio == null)
                         {
-                            try
-                            {
-                                _ratio = Console.ReadLine();
-                                _ratio2 = new Fraction(_ratio);
-                            }
-                            catch (StringException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (EnterKeyException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (WordsException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
+                            _ratio = Console.ReadLine();
+                            _ratio2 = new Fraction(_ratio);
                         }
 
                         Fraction second = new Fraction(_ratio);
@@ -389,26 +227,8 @@ namespace Lr7
                         Console.WriteLine("Введите первую дробь: ");
                         while (_ratio == null)
                         {
-                            try
-                            {
-                                _ratio = Console.ReadLine();
-                                _ratio1 = new Fraction(_ratio);
-                            }
-                            catch (StringException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (EnterKeyException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (WordsException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
+                            _ratio = Console.ReadLine();
+                            _ratio1 = new Fraction(_ratio);
                         }
 
                         Fraction first = new Fraction(_ratio);
@@ -418,26 +238,8 @@ namespace Lr7
                         Console.WriteLine("Введите вторую дробь: ");
                         while (_ratio == null)
                         {
-                            try
-                            {
-                                _ratio = Console.ReadLine();
-                                _ratio2 = new Fraction(_ratio);
-                            }
-                            catch (StringException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (EnterKeyException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
-                            catch (WordsException ex)
-                            {
-                                Console.Write($"{ex.Message} Повторите ввод: ");
-                                _ratio = null;
-                            }
+                            _ratio = Console.ReadLine();
+                            _ratio2 = new Fraction(_ratio);
                         }
 
                         Fraction second = new Fraction(_ratio);
