@@ -4,25 +4,6 @@ using System.Text;
 
 namespace Lr7
 {
-    class WordsException : Exception
-    {
-        public WordsException(string message) : base(message)
-        {
-        }
-    }
-
-    class StringException : Exception
-    {
-        public StringException(string message) : base(message)
-        {
-        }
-    }
-    class EnterKeyException : Exception
-    {
-        public EnterKeyException(string message) : base(message)
-        {
-        }
-    }
     class Fraction : IComparable, IEquatable<Fraction>
     {
         public int n;
@@ -105,7 +86,7 @@ namespace Lr7
         {
             if (String.IsNullOrWhiteSpace(num))
             {
-                throw new EnterKeyException("Была нажата клавиша Enter.");
+                
             }
             int format = 2;  //по дефолту стоит 2 - для целочисленного типа
             for (int i = 0; i < num.Length; i++)
@@ -149,7 +130,7 @@ namespace Lr7
                     else
                     {
 
-                        throw new WordsException("Между первым числом и словом \"из\" не должно быть больше 2 слов.");
+                        
                     }
                     m = int.Parse(s_form[i + 1]);
                     return;
@@ -158,7 +139,7 @@ namespace Lr7
 
             if (format == 3)
             {
-                throw new StringException("Неверный формат строки. Для ввода в специальном формате требуется слово \"из\".");
+                
             }
 
             //далее идет разбивка (если строка с точкой(запятой) или со знаком деления)
