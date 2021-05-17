@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\Lr7\obj\Debug\net5.0\Lr7.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Lr7\obj\Debug\net5.0\Lr7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Lr7\obj\Debug\net5.0\Lr7.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Lr7\obj\Debug\net5.0\Lr7.AssemblyInfo.cs
+C:\Users\user\source\repos\Lr7\obj\Debug\net5.0\Lr7.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Lr7\bin\Debug\net5.0\Lr7.exe
+C:\Users\user\source\repos\Lr7\bin\Debug\net5.0\Lr7.deps.json
+C:\Users\user\source\repos\Lr7\bin\Debug\net5.0\Lr7.runtimeconfig.json
+C:\Users\user\source\repos\Lr7\bin\Debug\net5.0\Lr7.runtimeconfig.dev.json
+C:\Users\user\source\repos\Lr7\bin\Debug\net5.0\Lr7.dll
+C:\Users\user\source\repos\Lr7\bin\Debug\net5.0\ref\Lr7.dll
+C:\Users\user\source\repos\Lr7\bin\Debug\net5.0\Lr7.pdb
+C:\Users\user\source\repos\Lr7\obj\Debug\net5.0\Lr7.dll
+C:\Users\user\source\repos\Lr7\obj\Debug\net5.0\ref\Lr7.dll
+C:\Users\user\source\repos\Lr7\obj\Debug\net5.0\Lr7.pdb
+C:\Users\user\source\repos\Lr7\obj\Debug\net5.0\Lr7.genruntimeconfig.cache
